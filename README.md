@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WorkASAP
 
-## Getting Started
+WorkASAP is a web app designed to streamline the connection between individuals seeking short-term employment opportunities and employers looking for quick talent. WorkASAP aims to democratize access to work for all, making it as simple and immediate as finding a ride on Uber or ordering food via DoorDash. From cashiering at a small business to finding a job in retail to helping assist in healthcare, WorkASAP simplifies the job search for workers and employers in need of immediate labor.
 
-First, run the development server:
+ Workers can set up their profiles, highlighting their availability, preferred job types, and skill sets, allowing employers to match with suitable candidates with just a few clicks. Employers can then fill positions swiftly with motivated individuals ready to jump into roles ranging from delivery drivers to retail associates.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+By focusing on work with quick turnaround times, WorkASAP not only facilitates immediate employment connections but also supports the growing economy of flexible job seekers and employers in need of temporary staffing solutions. Its responsive design ensures that whether users are at home on a computer or on the go with a smartphone, they have access to a full suite of features designed to make finding or posting jobs as straightforward and fast as possible.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Desktop/Mobile Responsiveness
+- Customizable worker profiles with skill tags and experience levels.
+- Real-time job posting and application tracking for employers.
+- Secure messaging system for communication between workers and employers.
+- 
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Client:** Next/React, Recoil, Chakra UI
 
-## Learn More
+**Server:** 
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
