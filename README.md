@@ -12,7 +12,7 @@ By focusing on work with quick turnaround times, WorkASAP not only facilitates i
 - Customizable worker profiles with skill tags and experience levels.
 - Real-time job posting and application tracking for employers.
 - Secure messaging system for communication between workers and employers.
-- 
+  
 ## Tech Stack
 
 **Client:** Next/React, Recoil, Chakra UI
