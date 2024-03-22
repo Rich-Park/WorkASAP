@@ -20,11 +20,9 @@ export default function WithSubnavigation() {
   return (
     <Box>
       <Flex
-        bg="white"
-        color="gray.600"
         minH={"60px"}
         py={{ base: 2 }}
-        px={{ base: 4 }}
+        px={{ base: 4, md: 16 }}
         borderBottom={1}
         borderStyle={"solid"}
         borderColor="gray.200"
