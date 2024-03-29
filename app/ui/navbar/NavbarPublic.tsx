@@ -22,7 +22,6 @@ export default function WithSubnavigation() {
       <Flex
         minH={"60px"}
         py={{ base: 2 }}
-        px={{ base: 4, md: 16 }}
         borderBottom={1}
         borderStyle={"solid"}
         borderColor="gray.200"
@@ -53,6 +52,7 @@ export default function WithSubnavigation() {
           <Text
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             cursor="pointer"
+            fontSize="xl"
           >
             Work
             <Text as="span" color="brand.500">
@@ -103,7 +103,7 @@ const DesktopNav = () => {
   const linkHoverColor = useColorModeValue("gray.800", "white");
 
   return (
-    <Stack direction={"row"} spacing={4}>
+    <Stack direction={"row"} spacing={4} align={"center"}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Text
@@ -159,11 +159,11 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Become a Worker",
-    href: "#",
+    label: "Find Work",
+    href: "/home",
   },
   {
-    label: "Find Workers",
+    label: "Post a Job",
     href: "#",
   },
 ];

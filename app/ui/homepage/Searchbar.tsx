@@ -16,8 +16,8 @@ export default function Searchbar() {
       </InputLeftElement>
       <Input
         variant="outline"
-        placeholder="Enter Your Address"
-        _placeholder={{ fontSize: "md", color: "gray.700" }}
+        placeholder="Enter Your City"
+        _placeholder={{ fontSize: "md", color: "gray.600" }}
         size="lg"
         bg="white"
         rounded="full"
